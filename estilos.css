@@ -1,0 +1,307 @@
+
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family:'Josefin Sans', sans-serif;
+
+}
+
+
+body{
+    width: 1800px;
+    margin: 0 auto;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+
+/*inicio barra de navegacion*/
+header{
+    height: 120px;
+    margin: 0 auto;
+    color: white;
+    background-color: #FBC5C5;
+}
+
+.logo img{
+    width: 10%;
+    align-items: center;
+    margin-top: -100px;
+}
+.name{
+   padding: 0% 150px;
+   margin-top: -200px;
+   font-size: 30PX;
+
+}
+.barra-nav{
+margin-top: -80px;
+}
+.presentacion,main{
+    background-image: url(images/body1.jpg);
+    background-image: cover;
+
+}
+ 
+#navegador{
+    padding-top: 20px;
+    height: 150px;
+}
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+    margin-left: 1000px;
+ }
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 40px 0 0;
+ }
+ #navegador li a {
+    color: #666;
+    background-color: #eeeeee;
+    text-decoration: none;
+    font-size: 20px;
+ }
+ #navegador li a:hover{
+    color: #ffffff;
+ }
+/*hasta aqui barra de navegación*/
+
+
+/*presentación del estudio*/
+
+.presentacion{
+    width: 100%;
+    height: 400px;
+}
+
+.info p{
+    padding-top: 180px;
+    margin-right: 300px;
+    margin-left: 300px;
+    text-align: center;
+    font-size: 25px;
+    color: #666;
+}
+.main{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color:#CFD2CF;
+}
+
+.fotoceci{
+    height: 400px;
+    width: 300px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    margin-top:-130px;
+    margin-right: -100px;
+}
+.fotoseba{
+    width: 480px;
+    margin-top: -105px;
+    margin-left: 100px;
+}
+
+h2{
+    color: #666;
+}
+
+.saludo-ceci{
+    color: #666;
+    margin-top: -35px;
+    margin-left: 550px;
+    font-size: 25px;
+}
+.saludo-seba{
+    color: #666;
+    margin-top: 10px;
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+p{
+    color: #666;
+}
+
+.texto-ceci{
+    color: #666;
+    margin-left: 530px;
+    padding-bottom: -30px;
+}
+
+.texto-seba{
+    color: #666;
+    margin-left: 220px;
+    padding-bottom: -30px;
+}
+/*fin presentación*/
+
+/*servicios*/
+
+.contenedor-servicios{
+    height: 600px;
+    padding:-20px;
+    background-color: #E4DCCF;
+}  
+
+#servicios{
+ padding: 60px;
+ margin-left: 700px;
+ font-size: 30px;
+ color: white;
+ }
+
+.cont-servicios{
+    margin: 0;
+    display: flex;
+    padding: 60px;
+    padding: 30px 250px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.img-servicios{
+    border-radius: 25%;
+}
+
+.tipo-serv{
+    margin-right: 200;
+    font-size: 25px;
+    color: white;
+}
+
+/*fin servicios*/
+
+/*comienza la seccion de portfolio*/
+
+.portfolio-container{/*contiene a todo el sector de portfolio*/
+    background-color: #F0EBE3;
+    padding-bottom: 100px;
+
+}
+#portfolio{/*titulo de Portfolio*/
+    justify-content: center;
+    color: rgb(165, 165, 165);
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 700px;
+}
+
+.port-contenido{  
+    margin-left: 80px;
+    justify-content: center;
+
+}
+
+.portfolio-img{
+    width: 250px;
+    margin-right: 100px;
+    margin-left: 150px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flexbox;
+}
+
+.portfolio-container h2{
+    color: white;
+    padding: 50px;
+    margin-left: 700px;
+}
+/*fin portfolio*/
+
+/*comienza galeria fotografica*/
+
+.galeria-container{
+    background-color: #E4DCCF;
+    padding-bottom:50px;
+}
+.galeria-container h2{
+    color:white;
+    font-size: 30px;
+    padding: 50px;
+    justify-content: center;
+    margin-left: 650px;
+}
+
+.fotos-container{
+    width: 80vw;
+    height: 40vh;
+    margin-left: 500px;
+    display: block;
+    justify-content: space-around;
+}
+.img-galeria{
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+/*fin galeria fotográfica*/
+
+
+/*sección contacto*/
+
+#contacto{
+    height: 700px;
+    padding:0px 20px;
+    margin-top: 20px;
+    background-color: #F0EBE3;
+    color: black;
+}
+.cont-contacto {
+   padding: 60px;
+    margin-left: 700px;
+    font-size: 30px;
+}
+
+.comentario{
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+form{
+    width: 960px;
+    margin: auto;
+}
+label,input{
+    display: block;
+    width: 100%;
+    margin:10px 0;
+}
+input{
+    height: 35px;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+textarea{
+    display: block;
+    width: 100%;
+    margin:10px 0;
+    border:none;
+    outline: none;
+}
+/*fin contacto*/
+
+/*pie de página*/
+
+footer{
+    padding: 10px;
+    margin:0;
+    height: 225px;
+    width: 100%;
+    text-align: center;
+    background-color:#f8b8b8;
+}
+
+footer h3{
+    color: white;
+}
+
+.redes img{
+    width: 80px;
+}
+
+/*fin pie de página*/

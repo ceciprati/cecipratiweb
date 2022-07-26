@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconectar" href="https://fonts.googleapis.com">
+  <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2? family= Josefin+Sans:wght@100 & display=swap" rel="stylesheet">
+
+
+  <title>CP DESING</title>
+
+</head>
+
+<body>
+  <header>
+    <div id="navegador">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo">
+      </div>
+      <div class="name">
+        <h1>Desing</h1>
+      </div>
+      <nav class="barra-nav">
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="info">
+    <section class="presentacion">
+      <p>Somos un grupo de profesionales del diseño, comunicación, programación y publicidad. <br>Creamos la imagen
+        visual y brindamos soluciones gráficas a pymes, grandes empresas y agencias de publicidad. Ayudándolos a
+        comunicar y promover sus productos y servicios.</p>
+    </section>
+  </div>
+
+  <main class="main">
+    <div>
+      <img class="fotoceci" src="images/foto_ceci.png" alt=foto-ceci>
+      <h2 class="saludo-ceci">Hola Soy Ceci!!</h2>
+      <p class="texto-ceci">Fotógrafa y Diseñadora Gráfica</p>
+    </div>
+
+    <div class="info-content">
+      <img class="fotoseba" src="images/Foto Sebas2.png" alt=foto-seba>
+      <h2 class="saludo-seba">Hola Soy Sebas!!</h2>
+      <p class="texto-seba">Diseñador Gráfico y Desarrollador Web.</p>
+    </div>
+  </main>
+
+
+  <section class="contenedor-servicios">
+    <h2 id="servicios">Nuestos Servicios</h2>
+    <div class="cont-servicios">
+      <div>
+        <img class="img-servicios" src="images/Branding-01.jpg" alt="branding">
+        <h4 class="tipo-serv">Branding</h4>
+      </div>
+      <div>
+        <img class="img-servicios" src="images/diseño_web-01.jpg" alt="diseño web">
+        <h4 class="tipo-serv">Diseño Web</h4>
+      </div>
+      <div>
+        <img class="img-servicios" src="images/editorial-01.jpg" alt="diseño editorial">
+        <h4 class="tipo-serv">Diseño Editorial</h4>
+      </div>
+      <div>
+        <img class="img-servicios" src="images/publicitario-01.jpg" alt="diseño publicitario">
+        <h4 class="tipo-serv">Diseño Publicitario</h4>
+      </div>
+    </div>
+  </section>
+
+  <div class="portfolio-container">
+    <h2 id="portfolio">Nuestro Portfolio</h2>
+    <div class="port-contenido">
+      <img class="portfolio-img" src="images/mockup1.jpg" alt="mockup1">
+      <img class="portfolio-img" src="images/mockup2.jpg" alt="mockup2">
+      <img class="portfolio-img" src="images/mockup3.jpg" alt="mockup3">
+      <img class="portfolio-img" src="images/mockup4.jpg" alt="mockup4">
+      <img class="portfolio-img" src="images/mockup5.jpg" alt="mockup5">
+      <img class="portfolio-img" src="images/mockup6.jpg" alt="mockup6">
+      <img class="portfolio-img" src="images/mockup9.jpg" alt="mockup9">
+      <img class="portfolio-img" src="images/mockup8.jpg" alt="mockup8">
+      <img class="portfolio-img" src="images/mockup7.jpg" alt="mockup7">
+    </div>
+  </div>
+
+  <div class="galeria-container">
+    <h2 id="galeria">Nuestras Fotografías</h2>
+    <div class="fotos-container">
+      <a href="images/FOTO 10.jpg" target="new" title="ampliar modelo">
+        <img class="img-galeria" src="images/FOTO 10.jpg" alt="portfolio">
+      </a>
+      <a href="images/FOTO 11.jpg" target="new" title="ampliar modelo">
+        <img class="img-galeria" src=" images/FOTO 11.jpg" alt="portfolio">
+      </a>
+      <a href="images/FOTO 12.jpg" target="new" title="ampliar modelo">
+        <img class="img-galeria" src="images/FOTO 12.jpg" alt="portfolio">
+      </a>
+      <a href="images/FOTO 14.jpg" target="new" title="ampliar modelo">
+        <img class="img-galeria" src="images/FOTO 14.jpg" alt="portfolio">
+      </a>
+    </div>
+  </div>
+
+  <section id="contacto">
+    <div class="contenedor">
+      <h2 class="cont-contacto">contáctanos!!</h2>
+      <form action="" method="post">
+        <div class="campos">
+          <!-- datos personales -->
+          <label for="nombre-apellido">Nombre y apellido*:</label>
+          <input type="text" id="nombre-apellido" required placeholder="text">
+          <label for="e-mail">e-mail*:</label>
+          <input type="email" id="e-mail" required placeholder="input">
+          <!-- fin datos personales -->
+          <!-- consulta del usuario-->
+          <label for="consulta-mensaje">Consulta | Mensaje</label>
+          <textarea id="consulta-mensaje" cols="30" rows="10">pregúntanos algo!....
+          </textarea>
+          <!--fin  consulta del usuario-->
+        </div>
+
+        <div class="botones">
+          <button id="enviar" type="submit">Enviar consulta</button>
+          <button id="borrar" type="reset">Borrar</button>
+        </div>
+      </form>
+      <p class="comentario">Todos los campos con (*) son obligatorios</p>
+    </div>
+  </section>
+
+  <footer>
+    <h3>BUSCANOS EN LAS REDES!!</h3>
+    <section class="redes">
+      <a title="instagram" href="https://www.instagram.com/ceciprati/"><img src="images/icono_instagram.png"
+          alt="instagram"></a>
+      <a title="facebook" href="https://es-la.facebook.com/"><img src="images/icono_facebook.png" alt="facebook"></a>
+      <a title="twiter" href="https://twitter.com/?lang=es"><img src="images/icono_twiter.png" alt="twiter"></a>
+      <p>copyright | 2022</p>
+      <p>CP Desing - Rosario - Argentina</p>
+    </section>
+  </footer>
+</body>
+
+</html>
